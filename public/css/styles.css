@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #c2d385;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,5 +60,5 @@ button:enabled {
 
 #message {
     margin-top: 20px;
-    color: red;
+    color: rgb(143, 187, 234);
 }
