@@ -52,7 +52,9 @@ button {
     cursor: not-allowed;
     border-radius: 3px;
 }
-
+button:disabled{
+    background-color:#ccc
+}
 button:enabled {
     cursor: pointer;
     background-color: #0056b3;
@@ -60,5 +62,15 @@ button:enabled {
 
 #message {
     margin-top: 20px;
-    color: rgb(143, 187, 234);
+    color: rgb(254, 0, 0);
+}
+.popup{
+    width: 400px;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
 }

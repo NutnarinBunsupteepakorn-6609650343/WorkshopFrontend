@@ -98,17 +98,16 @@ document.addEventListener("DOMContentLoaded", function() {
         submitLogin(); // Call the submit login function
     });
 });
-
 // Function to display the returned data in the UI
 function showinfo(data) {
-    const account = document.getElementById('accountinfo');
+    const account = document.getElementById('popup');
 
     // Log the data object to inspect its properties
     console.log('Data received in showinfo:', data);
 
     // Example update (modify these fields based on actual API response)
     account.innerHTML = `
-        <h2>Account Info</h2>
+         <h2>Account Info</h2>
         <p><strong>Student Number:</strong> ${data.username}</p>
         <p><strong>Name:</strong>${data.displayname_th}</p>
         <p><strong>Email:</strong> ${data.email}</p> 
